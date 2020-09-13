@@ -1,0 +1,29 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "typescript": "^4.0.2"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.62"
+  },
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc",
+    "dev": "ts-node-dev --transpile-only --no-notify src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RiadhNaceur/Auth-with-docker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RiadhNaceur/Auth-with-docker/issues"
+  },
+  "homepage": "https://github.com/RiadhNaceur/Auth-with-docker#readme"
+}
